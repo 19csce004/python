@@ -48,35 +48,35 @@ elif(n==10):
     e2=int(input("enter the ending range:"))
     print(c[e1:e2])
 elif(n==11):
-    print(t5)
+    print(d)
     i1=int(input("enter the index value :"))
     e1=int(input("enter the starting range:"))
     e2=int(input("enter the ending range:"))
-    print(t5[i1][e1:e2])
+    print(d[i1][e1:e2])
 elif(n==12):
-    d=str(input("enter the tuple you want to delete (t1/t2/t4/t5): "))
+    d=str(input("enter the tuple you want to delete (a/b/c/d): "))
     del(d)
 elif(n==13):
-    print(t2)
-    print("Maximum of tuple two is :",max(t2))
+    print(b)
+    print("Maximum of tuple two is :",max(b))
 elif(n==14):
-    print(t2)
-    print("Minimum of tuple two is :",min(t2))
+    print(b)
+    print("Minimum of tuple two is :",min(b))
 elif(n==15):
-    print(t2)
-    print("Sum of the tuple two is :",sum(t2))
+    print(b)
+    print("Sum of the tuple two is :",sum(b))
 elif(n==16):
-    print(t2)
-    print("Sorting the tuple two :",sorted(t2))
+    print(b)
+    print("Sorting the tuple two :",sorted(b))
 elif(n==17):
-    print(t2)
-    print("Reverse sorting the tuple two:",sorted(t2,reverse=True))
+    print(b)
+    print("Reverse sorting the tuple two:",sorted(b,reverse=True))
 elif(n==18):
     n="Python is a open source language"
     print(n)
     print("DataType before :",type(n))
-    t3=tuple(n)
-    print("DataType after changing :",type(t3))
+    f=tuple(n)
+    print("DataType after changing :",type(f))
 elif(n==19):
     n="Python is a open source language"
     i=int(input("enter an index value:"))
