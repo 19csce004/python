@@ -1,52 +1,52 @@
-t1=('english',91,'tamil',90.5)
-t2=(11,33,100,88,4)
-t4=("Pythonprogramming")
-t5=("Python","Cloudcomputing","linux")
-print("TUPLE ONE:",t1)
-print("TUPLE TWO:",t2)
-print("TUPLE THREE:",t4)
-print("TUPLE FOUR:",t5)
+a=('english',91,'tamil',90.5)
+b=(11,33,100,88,4)
+c=("Pythonprogramming")
+d=("Python","Cloudcomputing","linux")
+print("TUPLE ONE:",a)
+print("TUPLE TWO:",b)
+print("TUPLE THREE:",c)
+print("TUPLE FOUR:",d)
 n=int(input("enter your choice:"))
 
 if(n==1):
-    print("Datatype of tuple one is:",type(t1))
-    print("Datatype of tuple two is:",type(t2))
+    print("Datatype of tuple one is:",type(a))
+    print("Datatype of tuple two is:",type(b))
 elif(n==2):
-    print("Length of tuple one:",len(t1))
-    print("Length of tuple two:",len(t2))
+    print("Length of tuple one:",len(a))
+    print("Length of tuple two:",len(b))
 elif(n==3):
     r=int(input("enter the no.of times to be repeat:"))
-    print("Repeatation of tuple one:",t1*r)
-    print("Repeatation of tuple two:",t2*r)
+    print("Repeatation of tuple one:",a*r)
+    print("Repeatation of tuple two:",b*r)
 elif(n==4):
     i=int(input("enter the index number you want:"))
-    print("element in the index value",i,"is :",t1[i])
-    print("element in the index value",i,"is :",t2[i])
+    print("element in the index value",i,"is :",a[i])
+    print("element in the index value",i,"is :",b[i])
 elif(n==5):
-    a,b,c,d=t1
-    print(a)
+    e,b,c,d=a
+    print(e)
     print(b)
     print(c)
     print(d)
 elif(n==6):
-    t3=t1+t2
-    print(t3)
+    f=a+b
+    print(f)
 elif(n==7):
-    print(t4)
+    print(c)
     rem=int(input("enter the places want to remove from first:"))
-    print(t4[rem:])
+    print(c[rem:])
 elif(n==8):
-    print(t4)
+    print(c)
     rem=int(input("enter the place you want to remove from last:"))
-    print(t4[:-rem])
+    print(c[:-rem])
 elif(n==9):
-    print(t4)
-    print(t4[::-1])
+    print(c)
+    print(c[::-1])
 elif(n==10):
-    print(t4)
+    print(c)
     e1=int(input("enter the starting range:"))
     e2=int(input("enter the ending range:"))
-    print(t4[e1:e2])
+    print(c[e1:e2])
 elif(n==11):
     print(t5)
     i1=int(input("enter the index value :"))
